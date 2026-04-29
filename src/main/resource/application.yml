@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+
+server:
+  port: 8080
+
+rate-limit:
+  capacity: 5         # max requests
+  window-seconds: 60  # time window
